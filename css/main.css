@@ -14,13 +14,15 @@ html{
     /*start at top and go clockwise; top,right,bottom,left*/
     padding: 1em 2em 3em 0.5em;
 
-    margin: 0 1em; /* top/bottom  left/right*/
+    margin:; /* top/bottom  left/right*/
 
     border:5px  #a93f35;
 
     border-radius:10 px;
 
-    display: inline-block;
+    display: block;
+
+    text-align: center;
 
     font-size:2.0rem;
 
@@ -58,6 +60,7 @@ html{
       color: white;
       text-decoration: underline;
       font-size:2.0rem;
+      border-radius: 5px;
 
     }
 
@@ -97,7 +100,7 @@ html{
 
 
 
-  footer {
+  footer{
     text-align: center;
     font-size: 1.5rem;
     padding: 1.5em;
@@ -115,7 +118,7 @@ html{
 }
 
  .p2{
-   clear: both;
+   clear:left;
  }
 
  .inset-left-2{
