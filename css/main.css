@@ -138,3 +138,12 @@ dl{
   margin:5px;
   border:0;
 }
+
+footer{
+  background-color:#cd5b34;
+  color:#dd8757;
+  display: block;
+  margin: 0;
+  text-align: center;
+
+}
